@@ -1,4 +1,4 @@
 release: python manage.py makemigrations --no-input
 release: python manage.py migrate --no-input
 
-web: gunicorn django_project.wsgi
+web: gunicorn dj4eproject.wsgi

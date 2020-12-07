@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'dj4eproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / '/home/JRParreno/Django4Everybody/db.sqlite3',
+        'NAME': '/home/JRParreno/Django4Everybody/db.sqlite3',
     }
 }
 

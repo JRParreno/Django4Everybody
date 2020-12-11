@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
-# Create your views here.
+
+def owner(request):
+       return HttpResponse("Hello, world. ea2d131c is the polls index.")
